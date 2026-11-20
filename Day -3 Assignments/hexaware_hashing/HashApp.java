@@ -5,10 +5,10 @@ public class HashApp {
     static int numLocPerShelf = 3;
 
     public static void main(String[] args) {
-        Book b1 = new Book(1, "Harry Potter & Goblet of Fire");
-        Book b2 = new Book(2, "Harry Potter & Deathly Hollows - I");
-        Book b3 = new Book(3, "Harry Potter & Deathly Hollows - II");
-        Book b4 = new Book(4, "Harry Potter & prisoner of azkaban");
+       Book b1 = new Book(1, "Harry Potter & Goblet of Fire", null);
+       Book b2 = new Book(2, "Harry Potter & Deathly Hollows - I", null);
+       Book b3 = new Book(3, "Harry Potter & Deathly Hollows - II", null);
+       Book b4 = new Book(4, "Harry Potter & prisoner of azkaban", null);
 
         b1.address = hashAddress(b1);
         b2.address = hashAddress(b2);

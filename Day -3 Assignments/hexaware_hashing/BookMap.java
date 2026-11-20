@@ -5,10 +5,11 @@ public class BookMap{
     static int locpershelf=3;
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        Book b1 = new Book(1, "To Kill a Mockingbird");
-        Book b2 = new Book(2, "Pride and Prejudice");
-        Book b3 = new Book(3, "Man's Search for Meaning");
-        Book b4 = new Book(4, "Harry Potter & prisoner of azkaban");
+       Book b1 = new Book(1, "To Kill a Mockingbird", null);
+        Book b2 = new Book(2, "Pride and Prejudice", null);
+        Book b3 = new Book(3, "Man's Search for Meaning", null);
+        Book b4 = new Book(4, "Harry Potter & prisoner of azkaban", null);
+
         b1.address=hashAddress(b1);
         b2.address=hashAddress(b2);
         b3.address=hashAddress(b3);
