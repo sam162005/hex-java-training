@@ -6,9 +6,9 @@ public class QueueLinkedList {
         queue.offer("One");
         queue.offer("Two");
         queue.offer("Three");
-        System.out.println("Queue: " + queue);
+        System.out.println(queue);
         System.out.println("Front: " + queue.peek());
         queue.poll();
-        System.out.println("After Poll: " + queue);
+        System.out.println("After Poll:" + queue);
     }
 }
